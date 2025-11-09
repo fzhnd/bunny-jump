@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    background-image: url("./background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#game-container {
+    width: 360px;
+    height: 576px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board {
+    width: 360px;
+    height:576px;
+    background-image: url("./bunnyjumpbg.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
